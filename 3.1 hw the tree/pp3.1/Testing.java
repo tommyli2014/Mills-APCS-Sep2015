@@ -1,19 +1,15 @@
 
 /**
- * print out Christmas trees with desired height and segments
+ * Write a description of class Testing here.
  * 
- * Tommy Li 
- * 9/29/15
- * 
- * 
- * Comment: you can print out any tree with the desire segments and heights for each segment by making another drawTree method in the main method
- * for example: you can print out a tree with 3 segment and a height of 4 per segment by typing drawTree(3,4); as shown in the main method
- */ 
-public class TheTrees
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Testing
 {
-   public static void main(String[] args){
-        drawTree(3,4);
-        drawTree(2,5);
+    public static void main(String[] args){
+        drawTree(6,4);
+        drawTree(6,6);
     }
     
     public static void drawTree(int segment, int line){
