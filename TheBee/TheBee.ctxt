@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=space
+comment1.target=void\ spaces(int)
+comment2.params=slash
+comment2.target=void\ slashes(int)
+comment3.params=backslash
+comment3.target=void\ backSlashes(int)
+comment4.params=underscore
+comment4.target=void\ score(int)
+numComments=5
