@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Art here.
+ * Prints ART
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Tommy 
+ * 10/2/15
  */
 public class Art
 {
@@ -21,11 +21,10 @@ public class Art
         space(4);
         letterA(3);
         space(4);
-        letterR(3);
-        space(2);
-        letterR(3);
-        space(3);
-        letterT(3);
+        letterR(4);
+        space(5);
+        letterR(2);
+        space(5);
         System.out.println();
         
         space(7);
@@ -33,8 +32,8 @@ public class Art
         space(4);
         letterA(3);
         space(3);
-        letterR(9);
-        space(3);
+        letterR(12);
+        space(5);
         letterT(3);
         System.out.println();
         
@@ -42,16 +41,13 @@ public class Art
         fiveNsix();
         
         sevenNeight();
-        sevenNeight();
         
-        nineTothirteen();
         nineTothirteen();
         nineTothirteen();
         
         fourteenTosixteen();
         fourteenTosixteen();
         
-        seventeenTonineteen();
         seventeenTonineteen();
         seventeenTonineteen();
         
@@ -91,8 +87,8 @@ public class Art
         space(3);
         letterR(2);
         space(2);
-        letterR(1);
-        space(7);
+        letterR(2);
+        space(11);
         letterT(3);
         System.out.println();
     }
@@ -103,8 +99,8 @@ public class Art
         space(6);
         letterA(3);
         space(2);
-        letterR(9);
-        space(3);
+        letterR(12);
+        space(5);
         letterT(3);
         System.out.println();
     }
@@ -114,7 +110,7 @@ public class Art
         letterA(3);
         space(6);
         letterA(3);
-        space(14);
+        space(19);
         letterT(3);
         System.out.println();
     }
@@ -122,7 +118,7 @@ public class Art
     public static void fourteenTosixteen(){
         space(5);
         letterA(14);
-        space(13);
+        space(18);
         letterT(3);
         System.out.println();
     }
@@ -132,7 +128,7 @@ public class Art
         letterA(3);
         space(8);
         letterA(3);
-        space(13);
+        space(18);
         letterT(3);
         System.out.println();
     }
@@ -142,8 +138,8 @@ public class Art
         letterA(4);
         space(8);
         letterA(4);
-        space(8);
-        letterT(11);
+        space(11);
+        letterT(15);
         System.out.println();
     }
 }

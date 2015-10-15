@@ -8,52 +8,138 @@
 public class TheBee
 {
     public static void main(String[] args){
-        spaces(17);
-        score(13);
+        space(10);
+        letterA(4);
         System.out.println();
-        spaces(16);
-        System.out.println("/      |      \\");
-        spaces(15);
-        System.out.println("|       |       |");
-        spaces(15);
-        System.out.println("|       |       |");
-        spaces(6);
-        System.out.print("/   /");
-        spaces(7);
-        System.out.println("|      |      |");
-        spaces(5);
-        System.out.print("/      \\");
-        spaces(6);
-        System.out.println("|       |       |");
-        spaces(4);
-        System.out.println("/        \\");
-        spaces(6);
-        System.out.println("\\       /");
+        
+        space(9);
+        letterA(6);
+        System.out.println();
+        
+        space(7);
+        letterA(3);
+        space(4);
+        letterA(3);
+        space(4);
+        letterR(4);
+        space(5);
+        letterR(2);
+        space(5);
+        System.out.println();
+        
+        space(7);
+        letterA(3);
+        space(4);
+        letterA(3);
+        space(3);
+        letterR(12);
+        space(5);
+        letterT(3);
+        System.out.println();
+        
+        fiveNsix();
+        fiveNsix();
+        
+        sevenNeight();
+        
+        nineTothirteen();
+        nineTothirteen();
+        
+        fourteenTosixteen();
+        fourteenTosixteen();
+        
+        seventeenTonineteen();
+        seventeenTonineteen();
+        
+        lastTwo();
+        lastTwo();
     }
     
-    public static void spaces(int space){
-        for(int i = 1; i<=space; i++){
+    public static void letterA(int letters){
+        for(int i=1; i<=letters; i++){
+            System.out.print("art");
+        }
+    }
+    
+    public static void letterR(int letters){
+        for(int i=1; i<=letters; i++){
+            System.out.print("art");
+        }
+    }
+    
+    public static void letterT(int letters){
+        for(int i=1; i<=letters; i++){
+            System.out.print("art");
+        }
+    }
+    
+    public static void space(int spaces){
+        for(int i=1; i<=spaces; i++){
             System.out.print(" ");
         }
     }
     
-    public static void slashes(int slash){
-        for(int i = 1; i<=slash; i++){
-            System.out.print("/");
-        }
+    public static void fiveNsix(){
+        space(7);
+        letterA(3);
+        space(4);
+        letterA(3);
+        space(3);
+        letterR(2);
+        space(2);
+        letterR(2);
+        space(11);
+        letterT(3);
+        System.out.println();
     }
     
-    public static void backSlashes(int backslash){
-        for(int i = 1; i<=backslash; i++){
-            System.out.print("\\");
-        }
+    public static void sevenNeight(){
+        space(6);
+        letterA(3);
+        space(6);
+        letterA(3);
+        space(2);
+        letterR(12);
+        space(5);
+        letterT(3);
+        System.out.println();
     }
     
-    public static void score(int underscore){
-        for(int i=1; i<=underscore; i++){
-            System.out.print("_");
-        }
+    public static void nineTothirteen(){
+        space(6);
+        letterA(3);
+        space(6);
+        letterA(3);
+        space(19);
+        letterT(3);
+        System.out.println();
     }
-   
     
+    public static void fourteenTosixteen(){
+        space(5);
+        letterA(14);
+        space(18);
+        letterT(3);
+        System.out.println();
+    }
+    
+    public static void seventeenTonineteen(){
+        space(5);
+        letterA(3);
+        space(8);
+        letterA(3);
+        space(18);
+        letterT(3);
+        System.out.println();
+    }
+    
+    public static void lastTwo(){
+        space(4);
+        letterA(4);
+        space(8);
+        letterA(4);
+        space(11);
+        letterT(15);
+        System.out.println();
+    }
 }
