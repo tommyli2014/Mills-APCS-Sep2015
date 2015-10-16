@@ -8,12 +8,12 @@
 public class RoadTrip
 {
     public static void main(String[] args){
-        System.out.println("distance is " + roadTrip(10));
+        
     }
     
-    public static double roadTrip(int diameter){
+    public static void roadTrip(int diameter){
         double distance;
         distance = diameter * Math.PI;
-        return distance;
+        System.out.println("The round trip distance is " + distance);
     }
 }
